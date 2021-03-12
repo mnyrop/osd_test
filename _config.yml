@@ -1,0 +1,27 @@
+title:            'osd test'
+url:              ''
+baseurl:          '/osd_test'
+logo:             '/assets/logo.png'
+
+incremental: true
+plugins:
+  - jekyll-remote-theme
+remote_theme: 'minicomp/wax@data-from-submodule'
+permalink: 'pretty'
+sass:
+  style: compressed
+exclude:
+  - Gemfile*
+  - Rakefile
+  - vendor
+  - spec
+  - README.md
+webrick:
+  headers:
+    'Access-Control-Allow-Origin': '*'
+
+menu:
+  - label: ' With Tiles but not Thumbnails'
+    link: '/'
+  - label: ' With Thumbnails but not Tiles'
+    link: '/thumbs'
