@@ -21,7 +21,9 @@ webrick:
     'Access-Control-Allow-Origin': '*'
 
 menu:
-  - label: ' With Tiles but not Thumbnails'
+  - label: 'With Tiles but not Thumbnails'
     link: '/'
-  - label: ' With Thumbnails but not Tiles'
+  - label: 'With Thumbnails but not Tiles'
     link: '/thumbs'
+  - label: 'Fixed!'
+    link: '/fixed'
